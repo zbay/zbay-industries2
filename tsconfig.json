@@ -9,7 +9,18 @@
     "moduleResolution": "node",
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
-    "target": "es5",
+    "paths": {
+      "@app/*": [
+        "app/*"
+      ],
+      "@env/*": [
+        "environments/*"
+      ],
+      "@assets/*": [
+        "assets/*"
+      ]
+    },
+      "target": "es5",
     "typeRoots": [
       "node_modules/@types"
     ],
