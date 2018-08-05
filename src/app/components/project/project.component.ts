@@ -1,11 +1,11 @@
 import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-portfolio-item',
-  templateUrl: './portfolio-item.component.html',
-  styleUrls: ['./portfolio-item.component.scss']
+  selector: 'app-project',
+  templateUrl: './project.component.html',
+  styleUrls: ['./project.component.scss']
 })
-export class PortfolioItemComponent implements OnInit {
+export class ProjectComponent implements OnInit {
 
   @Input() caption: string;
   @Input() date: string;

@@ -6,8 +6,8 @@ import { AppComponent } from './app.component';
 import { AboutComponent } from './components/about/about.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { AnnouncementsComponent } from './components/announcements/announcements.component';
-import { PortfolioComponent } from './components/portfolio/portfolio.component';
-import { PortfolioItemComponent } from './components/portfolio-item/portfolio-item.component';
+import { ProjectsComponent } from './components/projects/projects.component';
+import { ProjectComponent } from './components/project/project.component';
 import { NotFoundComponent } from './components/not-found/not-found.component';
 import { FlexLayoutModule } from '@angular/flex-layout';
 
@@ -17,9 +17,9 @@ import { FlexLayoutModule } from '@angular/flex-layout';
     AboutComponent,
     NavbarComponent,
     AnnouncementsComponent,
-    PortfolioComponent,
-    PortfolioItemComponent,
-    NotFoundComponent
+    ProjectsComponent,
+    ProjectComponent,
+    NotFoundComponent,
   ],
   imports: [
     BrowserModule,

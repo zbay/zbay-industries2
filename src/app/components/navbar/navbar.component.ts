@@ -8,7 +8,7 @@ import { Router } from '@angular/router';
 })
 export class NavbarComponent implements OnInit {
   homeUrl = '/';
-  portfolioUrl = '/portfolio';
+  portfolioUrl = '/projects';
   announcementsUrl = '/announcements';
 
   constructor(private router: Router) {

@@ -65,19 +65,19 @@ body {
 .jumbotron {
   border: 8px outset #C0C0C0; }
 
-//#portfolio {
+//#projects {
 //  margin-left: auto;
 //  margin-right: auto;
 //  text-align: center; }
 //
 //@media (max-width: 990px) {
-//  #portfolio [class*="col-"] {
+//  #projects [class*="col-"] {
 //    width: 100%; }
-//  #portfolio .row, #portfolio .col-sm-4 {
+//  #projects .row, #projects .col-sm-4 {
 //    margin-left: auto;
 //    margin-right: auto; } }
 //
-//#portfolio img {
+//#projects img {
 //  min-width: auto;
 //  max-width: 250px;
 //  min-height: auto;
@@ -86,13 +86,13 @@ body {
 //  margin-left: auto;
 //  margin-right: auto; }
 //
-//#portfolio .row {
+//#projects .row {
 //  margin-left: auto;
 //  margin-right: auto;
 //  text-align: center;
 //  margin-bottom: 1%; }
 //
-//#portfolio .caption {
+//#projects .caption {
 //  margin-top: 1%;
 //  text-align: center; }
 //
@@ -397,7 +397,7 @@ select {
   }
 }
 
-app-portfolio-item {
+app-project {
   box-sizing: border-box;
   padding: 10px;
   background-color: $darkblue;
