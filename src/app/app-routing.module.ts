@@ -10,7 +10,7 @@ const routes: Routes = [
   { path: 'projects', component: ProjectsComponent },
   { path: 'announcements', component: AnnouncementsComponent },
   // { path: 'visualizations', loadChildren: './modules/visualizations/visualizations.module#VisualizationsModule' },
-  { path: '*', component: NotFoundComponent }
+  { path: '**', component: NotFoundComponent }
 ];
 
 @NgModule({

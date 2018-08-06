@@ -19,3 +19,10 @@
   margin-top: 1em;
   margin-bottom: 1em;
 }
+
+
+@media only screen and (max-width: 400px) {
+  #portfolio-item img {
+    max-width: 190px;
+  }
+}

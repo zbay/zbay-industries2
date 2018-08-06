@@ -10,8 +10,10 @@ export class NavbarComponent implements OnInit {
   homeUrl = '/';
   portfolioUrl = '/projects';
   announcementsUrl = '/announcements';
+  router: Router;
 
-  constructor(private router: Router) {
+  constructor(private _router: Router) {
+    this.router = _router;
   }
 
   ngOnInit() {
