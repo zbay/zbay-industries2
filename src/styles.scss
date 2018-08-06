@@ -65,48 +65,6 @@ body {
 .jumbotron {
   border: 8px outset #C0C0C0; }
 
-//#projects {
-//  margin-left: auto;
-//  margin-right: auto;
-//  text-align: center; }
-//
-//@media (max-width: 990px) {
-//  #projects [class*="col-"] {
-//    width: 100%; }
-//  #projects .row, #projects .col-sm-4 {
-//    margin-left: auto;
-//    margin-right: auto; } }
-//
-//#projects img {
-//  min-width: auto;
-//  max-width: 250px;
-//  min-height: auto;
-//  height: 150px;
-//  border: 8px inset #C0C0C0;
-//  margin-left: auto;
-//  margin-right: auto; }
-//
-//#projects .row {
-//  margin-left: auto;
-//  margin-right: auto;
-//  text-align: center;
-//  margin-bottom: 1%; }
-//
-//#projects .caption {
-//  margin-top: 1%;
-//  text-align: center; }
-//
-//.portfolioItem {
-//  margin-left: auto;
-//  margin-right: auto; }
-//
-//.portfolioItem #github {
-//  border-bottom-color: #000066;
-//  border-right-color: #000066; }
-//
-//.portfolioItem img {
-//  max-width: 25%; }
-
 @-moz-document url-prefix() {
   /*darker inset/outset borders in Firefox, which lightens them too much*/
   .jumbotron {
@@ -141,7 +99,8 @@ _::-webkit-full-page-media #portfolio img, _:future #portfolio img, :root #portf
 #about ul {
   list-style-image: url("assets/images/computer.gif");
   /*http://2css.com/graphics/computer.gif*/
-  vertical-align: bottom; }
+  vertical-align: bottom;
+}
 
 #about li {
   line-height: 100%; }
@@ -299,66 +258,7 @@ select {
 #blogNavInput {
   height: 30px; }
 
-#nflViz body {
-  background-color: #8B7E66;
-  font-family: verdana; }
-
-#nflViz .card {
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 2%;
-  background-color: #2E8B57;
-  color: white; }
-
-#nflViz .title {
-  text-align: center; }
-
-#nflViz .title #top {
-  text-decoration: underline; }
-
-#nflViz .title a {
-  color: #FFD700; }
-
-#nflViz rect {
-  fill: #8B7E66;
-  stroke: white; }
-
-#nflViz #avgBar {
-  fill: red; }
-
-#nflViz .axis {
-  fill: white; }
-
-#nflViz .mouseover {
-  fill: #FFD700; }
-
-#nflViz .chart .mouseover {
-  fill: lime; }
-
-#nflViz .tooltip {
-  position: absolute;
-  background-color: black;
-  padding: 3px 5px 3px 5px;
-  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2);
-  border-radius: 5px; }
-
-#nflViz #infobox {
-  text-align: center; }
-
-#nflViz .logo {
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 3px; }
-
-#nflViz #acknowledgements {
-  background-color: #FFD700;
-  text-align: center;
-  padding: 10px; }
-
-#nflViz #chart {
-  /*fill: url("./assets/footballfield.png");*/ }
-
-@media only screen and (max-width: 900px) {
+@media screen and (max-width: 900px) {
   #portfolio img {
     max-width: 250px; }
   h1 {
@@ -367,10 +267,15 @@ select {
     font-size: 1.3em; } }
 
 
-@media only screen and (max-width: 400px) {
+@media screen and (max-width: 420px) {
   #zach {
     width: 100px;
   }
+
+  .navCol:nth-child(3) {
+    border-top: 0;
+  }
+
 }
 
 #zach {
