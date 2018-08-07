@@ -2,48 +2,48 @@
 <div class="blogPost">
   <div fxLayout="row wrap" fxLayoutAlign="space-around stretch" >
     <app-project url="http://places2b.zbay.xyz"
-                        thumbnail="../../../assets/images/p2blogo.png"
+                        [thumbnail]="baseUrl + '/assets/images/p2blogo.png'"
                         date="10/17 and 8/18"
                         caption="An Angular 6, Node, and Redis app, built with the Yelp API, that serves as a day planner">
     </app-project>
     <app-project url="https://github.com/zbay/chartman"
-                        thumbnail="../../../assets/images/chartmanheader.png"
+                        [thumbnail]="baseUrl + '/assets/images/chartmanheader.png'"
                         date="December, 2017"
                         caption="A MERN stack app, allowing users to track equity prices and technical indicators. Shows charts on demand, generated with D3.js.
     Defunct. Will rewrite in Angular">
     </app-project>
     <app-project url="http://playertoo.zbay.xyz"
-                        thumbnail="../../../assets/images/p2.png"
+                        [thumbnail]="baseUrl + '/assets/images/p2.png'"
                         date="November, 2017"
                         caption="A social media platform, built on the MEAN stack, that allows users to advertise events
     to the public or to friends. Pickup basketball, online games, volunteer projects, and business promotions, among other possible use cases">
     </app-project>
     <app-project url="https://github.com/zbay/NewsWave"
-                        thumbnail="../../../assets/images/nw.png"
+                        [thumbnail]="baseUrl + '/assets/images/nw.png'"
                         date="September, 2017"
                         caption="A Django (full stack Python) app, with SQLAlchemy and jQuery, for browsing headlines and making notes to self">
     </app-project>
     <app-project url="https://have-a-word.herokuapp.com"
-                        thumbnail="../../../assets/images/haveaword.png"
+                        [thumbnail]="baseUrl + '/assets/images/haveaword.png'"
                         date = "May, 2016"
                         caption="A MERN stack app for ad-hoc chat rooms that can be password-protected and given a deadline for deletion.">
     </app-project>
     <app-project url="https://zbay.herokuapp.com/visualizations/nfl_coaches_offense"
-                        thumbnail="../../../assets/images/coachrank.png"
+                        [thumbnail]="baseUrl + '/assets/images/coachrank.png'"
                         date = "May, 2016"
                         caption="A D3 visualization representing the strengths and weakness of NFL coaches, primarily for fantasy football purposes. Note that the link takes you to an outdated version of my website.">
     </app-project>
     <app-project url="http://www.ibiblio.org/paulgreen/index.html"
-                        thumbnail="../../../assets/images/paulgreen.png"
+                        [thumbnail]="baseUrl + '/assets/images/paulgreen.png'"
                         date="November, 2015"
                         caption="A static website for a Chapel Hill nonprofit. To solidify
-                my front-end design skills, I volunteered to help redesign their site
+                my basic front-end development skills, I volunteered to help redesign their site
                 for the first time since the late 1990's.">
     </app-project>
   </div>
   <div fxLayoutAlign="center center">
     <app-project id="portfolio_github" url="https://github.com/zbay"
-                        thumbnail="../../../assets/images/zuperman2.png"
+                        [thumbnail]="baseUrl + '/assets/images/zuperman2.png'"
                         date="Ongoing"
                         caption="My Github account, where you can find the repos for these and other projects">
     </app-project>
